@@ -1,0 +1,25 @@
+{
+  "name": "tailwind_css_test",
+  "version": "1.0.0",
+  "description": "Test with Tailwind/DaisyUI and NPM",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss build -i ./src/tailwind.css -o ./static/css/style.css --watch",
+    "build": "cross-env NODE_ENV=production npx tailwindcss build -i ./src/tailwind.css -o ./static/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.1.1",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

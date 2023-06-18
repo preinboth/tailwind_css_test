@@ -11,13 +11,13 @@ Führe diesen Befehl im Terminal einmalig aus um alle notwendigen Dependencies z
 npm install
 ```
 
-### Kompeliere Tailwind CSS für Development
+### Kompiliere Tailwind CSS für Development
 
 ```
 npm run dev
 ```
 
-### Kompeliere Tailwind CSS für Produktion
+### Kompiliere Tailwind CSS für Produktion
 
 ```
 npm run build
